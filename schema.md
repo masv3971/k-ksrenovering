@@ -13,7 +13,7 @@
         section Vatten
         Ringa grävare : 2024-06-01, 1d
         Gräva : 2024-06-08, 3d
-        Nytt vattenrör, 2024-06-13, 5d
+        Nytt vattenrör : 2024-06-13, 5d
 
         section Development
         Design : 2023-01-29, 21d
