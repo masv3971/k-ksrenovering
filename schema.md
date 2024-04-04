@@ -6,10 +6,14 @@
         dateFormat YYYY-MM-DD
         axisFormat %m/%d
 
-        section Planning
-        Define Project : 2023-01-01, 7d
-        Research : 2023-01-08, 14d
-        Define Requirements : 2023-01-22, 7d
+        section Rivning
+        Fixa container : 2024-06-01, 1d
+        Riva : 2024-06-1, 7d
+        
+        section Vatten
+        Ringa grävare : 2024-06-01, 1d
+        Gräva : 2024-06-08, 3d
+        Nytt vattenrör, 2024-06-13, 5d
 
         section Development
         Design : 2023-01-29, 21d
