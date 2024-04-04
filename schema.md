@@ -14,11 +14,15 @@
         Ringa grävare : 2024-06-01, 1d
         Gräva : 2024-06-08, 3d
         Beställa matrial : 2024-06-13, 1d
-        Anlägga vattenrör : 2024-06-13, 5d
+        Anlägga vattenrör : 2024-06-13, 3d
+        Ansluta vattenrör : 2024-06-13, 1d
         Anlägga EL/Fiber rör : 2024-06-18, 2d
+        Ringa grävare övertäckning : 2024-06-20, 1d
 
         section Gjuta platta
         Boka betongbil : 2024-06-01, 1d
         Boka grusbil : 2024-06-01, 1d
+        Beställa matrial : 2024-06-01, 1d
+
 
 ```
