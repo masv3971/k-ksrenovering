@@ -3,7 +3,6 @@
 ```mermaid
     gantt
         title Project Schedule
-        tickInterval 1day
         dateFormat YYYY-MM-DD
         axisFormat %m/%d
 
