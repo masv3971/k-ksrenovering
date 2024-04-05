@@ -16,10 +16,27 @@
         Offerera material : 2024-04-25, 1d
         Beställa material : 2024-04-26, 10d
 
+        section EL-central
 
         section Vardagsrum
+        Panel : p, 2024-04-05, 5d
+        Tak : t, after p, 2d
+        Gips : g, after t, 2d
+        Koppla in EL : el, after g, 1d
 
         section Spelrum
+        Panel :
+        Tak :
+        Gips :
+        Koppla in EL :
+        Bygga skjutdörr :
+
+        section Växthus
+
+        section Provisoriskt kök
+        Flytta upp spis / kyl / micro :
+        Bygga hyllor :
+
 
         section Rivning av köket
         Container på plats : 2024-06-01, 1d
@@ -33,6 +50,8 @@
         Anlägga vattenrör + isolera : 2024-06-21, 3d
         Ansluta vattenrör : 2024-06-24, 1d
         Anlägga EL/Fiber rör : 2024-06-25, 2d
+        Ansluta EL : 2024-06-27, 1d
+        Riva Provisoriskt vatten/EL :
         övertäckning : 2024-06-27, 1d
 
         section Gjuta platta
@@ -44,8 +63,11 @@
         Gjuta : 2024-07-12, 1d
 
 
-        section Subkultfestivalen
-        Festival : 2024-06-28, 3d
+        section Utflykter
+        Stockholm : 2024-04-19, 2d
+        E & V besök : 2024-04-26, 3d
+        GBG E : 2024-05-04, 1d
+        Subkultfestivalen : 2024-06-28, 3d
 
 
 
