@@ -34,8 +34,8 @@
         section Växthus
 
         section Provisoriskt kök
-        Flytta upp spis / kyl / micro :
-        Bygga hyllor :
+        Flytta upp spis / kyl / micro : f, 2024-05-01, 1d
+        Bygga hyllor : h, after f, 1d
 
 
         section Rivning av köket
