@@ -19,12 +19,12 @@
         section EL-central
 
         section Vardagsrum
-        Panel           : p,        2024-04-05,     5d
-        Tak             : t,        after p,        2d
-        Gips            : g,        after t,        2d
-        Tapetsera       : tapet,    after g,        1d
-        Koppla in EL    : el,       after tapet,    1d
-        Lister          : lister,   after el,       1d
+        Panel           : p-var,        2024-04-05,     5d
+        Tak             : t-var,        after p-var,        2d
+        Gips            : g-var,        after t-var,        2d
+        Tapetsera       : tapet-var,    after g-var,        1d
+        Koppla in EL    : el-var,       after tapet-var,    1d
+        Lister          : lister-var,   after el-var,       1d
 
 
         section Spelrum
