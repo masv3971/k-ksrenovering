@@ -25,11 +25,11 @@
         Koppla in EL : el, after g, 1d
 
         section Spelrum
-        Panel :
-        Tak :
-        Gips :
-        Koppla in EL :
-        Bygga skjutdörr :
+        Panel : p, 2024-04-15, 5d
+        Tak : t, after p, 2d
+        Gips : g, after t, 2d
+        Koppla in EL : el, after g, 2d
+        Bygga skjutdörr : door, after el, 2d
 
         section Växthus
 
