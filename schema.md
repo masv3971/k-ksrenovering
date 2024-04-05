@@ -19,7 +19,7 @@
         section EL-central
 
         section Vardagsrum
-        Panel           : p-var,        2024-04-05,     5d
+        Panel           : p-var,        2024-04-05,         5d
         Tak             : t-var,        after p-var,        2d
         Gips            : g-var,        after t-var,        2d
         Tapetsera       : tapet-var,    after g-var,        1d
@@ -28,13 +28,14 @@
 
 
         section Spelrum
-        Bygga skjutdörr : door,     2024-04-15,     2d
-        Panel           : p,        after door,     5d
-        Tak             : t,        after p,        2d
-        Gips            : g,        after t,        2d
-        Tapetsera       : tap,      after g,        1d
-        Koppla in EL    : el,       after tap,      1d
-        Lägga golv      : floor,    after el,       4d
+        Bygga skjutdörr : door-spel,        2024-04-15,         2d
+        Panel           : panel-spel,       after door-spel,    5d
+        Tak             : tak-spel,         after panel-spel,   2d
+        Gips            : gips-spel,        after tak-spel,     2d
+        Tapetsera       : tapet-spel,       after gips-spel,    1d
+        Koppla in EL    : el-spel,          after tapet-spel,   1d
+        Ta in golvet    : in-park,          after el-spel,      2d
+        Lägga golv      : floor-spel,       after in-park,      4d
 
 
         section Växthus
@@ -63,6 +64,7 @@
         Container tillbaka  :   c-0,        after riva, 1d
         Gräva ur grunden :      gr,         after c-0,  7d
         
+
         section Vatten
         Provisoriskt vatten/EL      : p-el,             2024-06-17,             2d
         Gräva                       : g,                after p-el,             3d
@@ -70,8 +72,9 @@
         Ansluta vattenrör           : ans-v,            after v-iso,            1d
         Anlägga EL/Fiber rör        : anl-el,           after ans-v,            2d
         Ansluta EL                  : ans-el,           after anl-el,           1d
-        Riva Provisoriskt vatten/EL : riv-el-vatten,    after ans-el,           1d
-        övertäckning                : over,             after riv-el-vatten,    1d
+        Övertäckning                : over,             after ans-el,           1d
+        Göra i ordning pumprummet   : pumprum,          after over,             2d 
+        Riva Provisoriskt vatten/EL : riv-el-vatten,    after pumprum,          1d
 
 
         section Gjuta platta
