@@ -45,14 +45,14 @@
         Gräva ur grunden : 2024-06-10, 7d
         
         section Vatten
-        Provisoriskt vatten/EL : 2024-06-17, 2d
-        Gräva : 2024-06-19, 3d
-        Anlägga vattenrör + isolera : 2024-06-21, 3d
-        Ansluta vattenrör : 2024-06-24, 1d
-        Anlägga EL/Fiber rör : 2024-06-25, 2d
-        Ansluta EL : 2024-06-27, 1d
-        Riva Provisoriskt vatten/EL :
-        övertäckning : 2024-06-27, 1d
+        Provisoriskt vatten/EL : p-el, 2024-06-17, 2d
+        Gräva : g, after p-el, 3d
+        Anlägga vattenrör + isolera : v-iso, after p-el, 3d
+        Ansluta vattenrör : ans-v, after v-iso 1d
+        Anlägga EL/Fiber rör : anl-el, after v-iso, 2d
+        Ansluta EL : ans-el, after anl-el, 1d
+        Riva Provisoriskt vatten/EL : riv-el-vatten, after ans-el, 1d
+        övertäckning : over, after riv-el-vatten, 1d
 
         section Gjuta platta
         Dra rör : 2024-07-01, 1d
