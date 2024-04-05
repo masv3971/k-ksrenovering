@@ -3,6 +3,7 @@
 ```mermaid
     gantt
         title Project Schedule
+        tickInterval 1day
         dateFormat YYYY-MM-DD
         axisFormat %m/%d
 
@@ -33,9 +34,12 @@
         Tak             : tak-spel,         after panel-spel,   2d
         Gips            : gips-spel,        after tak-spel,     2d
         Tapetsera       : tapet-spel,       after gips-spel,    1d
-        Koppla in EL    : el-spel,          after tapet-spel,   1d
+        Lister          : lister-spel,      after tapet-spel,   1d
+        Koppla in EL    : el-spel,          after lister-spel,  1d
         Ta in golvet    : in-park,          after el-spel,      2d
         Lägga golv      : floor-spel,       after in-park,      4d
+        Slipa golv      : floor-slip,       after floor-spel,   1d
+        Olja golv       : flor-oil,         after floor-slip,   1d
 
 
         section Växthus
@@ -59,10 +63,11 @@
 
 
         section Rivning av köket
-        Container på plats  :   c-1,        2024-06-01, 1d
-        Riva                :   riva,       after c-1,  9d
-        Container tillbaka  :   c-0,        after riva, 1d
-        Gräva ur grunden :      gr,         after c-0,  7d
+        Täcka dörrhålet till spel   :   t-1,        2024-06-01, 1d
+        Container på plats          :   c-1,        after t-1, 1d
+        Riva                        :   riva,       after c-1,  9d
+        Container tillbaka          :   c-0,        after riva, 1d
+        Gräva ur grunden            :   gr,         after c-0,  7d
         
 
         section Vatten
