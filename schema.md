@@ -47,7 +47,7 @@
         section Vatten
         Provisoriskt vatten/EL      : p-el,             2024-06-17,             2d
         Gräva                       : g,                after p-el,             3d
-        Anlägga vattenrör + isolera : v-iso,            after p-el,             3d
+        Anlägga vattenrör + isolera : v-iso,            after g,                3d
         Ansluta vattenrör           : ans-v,            after v-iso,            1d
         Anlägga EL/Fiber rör        : anl-el,           after ans-v,            2d
         Ansluta EL                  : ans-el,           after anl-el,           1d
